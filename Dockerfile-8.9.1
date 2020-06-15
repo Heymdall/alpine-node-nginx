@@ -1,6 +1,0 @@
-FROM mhart/alpine-node:8.9.1
-
-RUN apk --no-cache --update add nginx tzdata
-
-ADD nginx.conf /etc/nginx/
-RUN mkdir /var/cache/nginx
